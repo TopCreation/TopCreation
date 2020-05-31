@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/w"/>
+    <qresource prefix="/">
+        <file>aa/ww.png</file>
+        <file>aa/supprimer.png</file>
+        <file>aa/supprimer2.png</file>
+        <file>aa/recherche.png</file>
+        <file>aa/recherche1.jpg</file>
+        <file>aa/ajouter1.png</file>
+        <file>aa/ajouter.png</file>
+    </qresource>
+</RCC>

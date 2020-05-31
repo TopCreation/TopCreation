@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1028</width>
+    <height>533</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_emp">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>180</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 13pt &quot;Tw Cen MT Condensed Extra Bold&quot;;
+
+color: white;
+background-color: #f0742f; 
+border-width: 1px;
+border-color: #f0742f;
+border-style: solid;
+border-radius: 8;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+
+}
+
+QPushButton:hover
+{
+color :black;
+}</string>
+   </property>
+   <property name="text">
+    <string>gestion des employés et des postes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_emp_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>180</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 13pt &quot;Tw Cen MT Condensed Extra Bold&quot;;
+
+color: white;
+background-color: #f0742f; 
+border-width: 1px;
+border-color: #f0742f;
+border-style: solid;
+border-radius: 8;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+
+}
+
+QPushButton:hover
+{
+color :black;
+}</string>
+   </property>
+   <property name="text">
+    <string>gestion des enfants et des parents</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_emp_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>250</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 13pt &quot;Tw Cen MT Condensed Extra Bold&quot;;
+
+color: white;
+background-color: #f0742f; 
+border-width: 1px;
+border-color: #f0742f;
+border-style: solid;
+border-radius: 8;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+
+}
+
+QPushButton:hover
+{
+color :black;
+}</string>
+   </property>
+   <property name="text">
+    <string>gestion des equipements et des fournisseurs</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>601</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:600; color:#ffffff;&quot;&gt;SMART KINDERGARTEN &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_emp_4">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>250</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 13pt &quot;Tw Cen MT Condensed Extra Bold&quot;;
+
+color: white;
+background-color: #f0742f; 
+border-width: 1px;
+border-color: #f0742f;
+border-style: solid;
+border-radius: 8;
+padding: 3px;
+padding-left: 5px;
+padding-right: 5px;
+
+}
+
+QPushButton:hover
+{
+color :black;
+}</string>
+   </property>
+   <property name="text">
+    <string>gestion des clubs et activitées</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>340</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+     border: 2px solid #8f8f91;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #f6f7fa, stop: 1 #dadbde);
+     min-width: 80px;
+ }</string>
+   </property>
+   <property name="text">
+    <string>play</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>340</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+     border: 2px solid #8f8f91;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #f6f7fa, stop: 1 #dadbde);
+     min-width: 80px;
+ }</string>
+   </property>
+   <property name="text">
+    <string>pause</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>531</x>
+     <y>340</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">   QPushButton {
+	font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+     border: 2px solid #8f8f91;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #f6f7fa, stop: 1 #dadbde);
+     min-width: 80px;
+ }</string>
+   </property>
+   <property name="text">
+    <string>next</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSlider">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>410</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
